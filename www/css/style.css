@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+
+.iota-divider-full {
+	padding: 0 0 1px 0;
+}
+
+.button-contact:first-child,
+.button-contact:last-child {
+	border-radius: 0;
+}
+
+.button-bar > .button-contact:first-child,
+.button-bar > .button-contact:last-child{
+	border-radius: 0;
+}
