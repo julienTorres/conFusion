@@ -159,7 +159,7 @@ angular.module('conFusion.controllers', [])
 
   .controller('IndexController', ['$scope', 'menuFactory', 'corporateFactory','baseURL', function($scope, menuFactory, corporateFactory, baseURL) {
                                   
-                  $scope.baseURL = baseURL;
+                  $scope.baseURL = baseURL; // allow the viewmodel to access the base URL
                   $scope.leader = corporateFactory.get({id:3});
                   $scope.showDish = false;
                   $scope.message="Loading ...";
